@@ -1,3 +1,4 @@
+import React from "react";
 import { TableHead, TableRow, TableCell, TableSortLabel, Box, Typography } from "@mui/material";
 import { visuallyHidden } from '@mui/utils';
 import { Order, OrderType } from "./rates.table.types";

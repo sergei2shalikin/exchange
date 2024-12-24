@@ -1,7 +1,7 @@
 import { Button } from "@mui/material";
 import React from "react";
 
-export function AuthButton({ text, ...props }) {
+export function AuthButton({ text, ...props }: {text: string, [key: string]: unknown}) {
   
   return (
     <Button
